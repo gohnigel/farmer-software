@@ -7,18 +7,27 @@
 	</head>
 	
 	<body>
-	<ul>
-		<li><a href="index.html">Farm It Up</a></li>
-		<li><a href="customer.html">Customer</a></li>
-		<li><a href="farmer.html">Farmer</a></li>
-		<li><a href="promotions.html">Promotions</a></li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="cart.html">Cart</a></li>
-		<li><a href="register.html">Register</a></li>
-		<li><a href="login.html">Login</a></li>
-		<li>Search <input type="text"/></li>
-	</ul>
+	<div class = "nav">
+		<ul>
+			<li><a href="main.html">Farm It Up</a></li>
+			<li><a href="customer.html">Customer</a></li>
+			<li><a href="farmer.html">Farmer</a></li>
+			<li><a href="promotions.html">Promotions</a></li>
+			<li class = "dropdown">
+				<a href="products.html" class="dropdownbtn">Products</a>
+				<div class = "dropdown-content">
+					<a href="Vegtables.html">Vegetables</a>
+					<a href="Fruits.html">Fruits</a>
+					<a href="Livestock.html">Live Stock</a>
+				</div>
+			</li>
+			<li><a href="cart.html">Cart</a></li>
+			<li><a href="index.html">Logout</a></li>
+			<li>Search <input type="text"/></li>
+		</ul>
+	</div>
 	
+	 <div class = "box">
 		<h1>List of products added to a cart:</h1>
 		<p>XXXXXXX</p>
 		<p>RMXX.XX</p>
@@ -26,7 +35,7 @@
 		<button>Remove from cart</button>
 		
 		<button>Purchase</button>
-		
+	</div>
 	</body>
 	
 	<footer>
